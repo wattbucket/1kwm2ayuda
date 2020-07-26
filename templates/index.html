@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="A simple resume template built with Flask, based on Start Bootstrap resume template.">
+  <meta name="author" content="Rodolfo Ferro <rodolfoferroperez@gmail.com>">
+
+  <title>CV - {{ data.profile.first_name }} {{ data.profile.last_name }}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css' )}}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='css/resume.css') }}" rel="stylesheet">
+  <link rel="shortcut icon" href="https://avatars3.githubusercontent.com/u/36435547" type="image/x-icon">
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <a href="https://1kwm2.com/" class="navbar-brand d-flex align-items-center">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-brightness-high-fill" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" />
+          <path fill-rule="evenodd"
+            d="M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+        </svg>
+        <!-- <strong>1 kW/m<sup>2</sup></strong> -->
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
+        aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Yo</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Educacion</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+        <div class="w-100">
+          <h1 class="mb-0">{{ data.profile.first_name }}
+            {{ data.profile.last_name }}
+          </h1>
+          <div class="subheading mb-5">
+            {% for item in data.profile.contact.values() %}
+            {% if item != None %}
+            {{ item }} ·
+            {% endif %}
+            {% endfor %}
+            <a href="mailto:{{ data.profile.email }}">{{ data.profile.email }}</a>
+          </div>
+          <p class="lead mb-5">{{ data.profile.description }}</p>
+
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+        <div class="w-100">
+          <h2 class="mb-5">Experiencia</h2>
+
+          {% for _, item in data.experience.items() %}
+          {% if _ != 'reference' %}
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">{{ item.position }}</h3>
+              <div class="subheading mb-3">{{ item.company }}</div>
+              <p>{{ item.description }}</p>
+              {% if item.link %}
+              <p><a href="{{ item.link }}">Reference link.</a></p>
+              {% endif %}
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">{{ item.from }} - {{ item.to }}</span>
+            </div>
+          </div>
+          {% else %}
+          <p>For a detailed reference about this section, please visit <a href="{{ item }}" target="_blank">this
+              link</a>.
+          </p>
+          {% endif %}
+          {% endfor %}
+        </div>
+
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+        <div class="w-100">
+          <h2 class="mb-5">Educacion</h2>
+
+          {% for _, item in data.education.items() %}
+          {% if _ != 'reference' %}
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">{{ item.institution }}</h3>
+              <div class="subheading mb-3">{{ item.program }}</div>
+              <div>{{ item.description }}</div>
+              <p>{{ item.gpa }}</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">{{ item.from }} - {{ item.to }}</span>
+            </div>
+          </div>
+          {% else %}
+          <p>For a detailed reference about this section, please visit <a href="{{ item }}" target="_blank">this
+              link</a>.
+          </p>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <section>
+
+        <div class="social-icons">
+          {% for key, value in data.social.items() %}
+          {% if value != None %}
+          {% if key == 'website' %}
+          <a href="{{ data.social.website }}" target="_blank">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+          {% else %}
+          <a href="{{ value }}" target="_blank">
+            <i class="fab fa-{{ key }}"></i>
+          </a>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </div>
+
+      </section>
+
+
+      <hr class="m-0">
+
+
+
+
+
+      <div class="container">
+        <p class="small float-right">
+          <!-- Con mucho <i class="fas fa-heart text-danger"></i>  -->
+          by Francisco Roman</a>, under a
+          MIT
+          License.</p>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js')}} "></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='js/resume.min.js') }}"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,378 @@
+# Profile section
+profile:
+  first_name: Francisco
+  last_name: Roman
+  # picture: https://rodolfoferro.xyz/assets/images/profile.jpg   # Hosted picture
+  picture: 
+  contact:
+    address_one: Lanteira, Granada
+    address_two: 
+    phone: +34 600366211
+  email: franciscomanuelromangamez@gmail.com
+  description: >
+    Soy una persona con buenas habilidades sociales, de negociación, resolución de problemas y toma de decisiones. 
+    Responsable, dinámica, con capacidad analítica, de liderazgo, planificación y gestión de proyectos.
+# Social section
+social:
+  website: https://1kwm2.com
+  github: https://github.com/1kwm2/
+  twitter: https://twitter.com/1kwm2/
+  linkedin:  
+  facebook:  
+  dev: 
+  medium: 
+
+
+# Experience section
+experience:
+  item0:
+    position: Ejercicio Libre
+    from: 2014
+    to: Presente
+    description: >
+      Colaboracion en las distintas areas de las Instalaciones Solares Fotovoltaicas.
+      
+      Estudio, proyecto, autorizacion, obras, mantenimiento y herramientas de gestion.
+      
+      Tramitar los derechos de acceso y conexión a las redes de distribución y transporte.
+      
+      Interlocución con los solicitantes, el operador del sistema, administraciones u órganos afectados, clientes, proveedores, y colaboradores
+  item1:
+    position: Tecnico de Nuevos Suministros
+    company: Endesa
+    from: 2003
+    to: 2011
+    description: >
+      Desarrollar el diseño de centros de transformación, elección de celdas y transformadores, cimentaciones, zanjas y líneas subterráneas de alta tensión, etc.
+      Desarrollar el diseño de subestaciones eléctricas, definición de instalaciones de interior, definición de parque intemperie, cálculo de cimentaciones, puestas a tierra, sistema de control y comunicaciones, etc.
+      Desarrollar el diseño de líneas aéreas de alta tensión, definición de trazados y cruzamientos, cálculo de conductores simples o en haz, cálculo de apoyos, cimentaciones y puestas a tierra, etc.
+  item2:  
+    position: Custom Training 4 ENEL POWER PLANTS 
+    company: ENEL UNIVERSITY
+    from: 2011
+    to: 2013
+    description: >
+      Teacher in courses offered by Enel to help workers get the most out of their efficiency and control energy solutions.
+      Simuation software Tools developing.
+  item3:
+    position: Operacion y Mantenimiento de Redes y Centrales Electricas
+    company: Cia Sevillana de Electtricidad
+    from: 1988
+    to: 2003
+    description: >
+      Jefe de Turno en la Central de carbon de CTLB 567.5 MW
+      Jefe de operacion de la puesta en servicio de la Central de Biomasa de Vetejar 12,4 MW
+      Jefe de Turno CCR LMT/LAT
+
+
+
+# Education section
+education:
+  item1:
+    institution: Ingeniero en Automática y Electrónica Industrial
+    program: nivel 3 (Máster) del Marco Español de Cualificaciones para la Educación Superior (MECES)
+      y el nivel 7, del Marco Europeo de Cualificaciones (EQF).
+    description:   Registro
+      Nacional de Titulados Universitarios Oficiales con número 2007032737
+      
+    from: 2000
+    to: 2006
+
+  item2:
+    institution: Ingeniero Técnico en Electricidad
+    program: nivel 2 (Grado) del Marco Español de
+      Cualificaciones para la Educación Superior (MECES) y el nivel 6, del Marco Europeo de
+      Cualificaciones (EQF).
+    description: Registro Nacional de Titulados Universitarios
+      Oficiales con número 1986002104.
+    from: 1983
+    to: 1986
+
+  item3:
+    institution: Otros de interes para el puesto
+    program: DISEÑO Y MANTENIMIENTO DE INSTALACIONES DE ENERGÍA SOLAR FOTOVOLTAICA
+    description: CONSEJO GENERAL DE COLEGIOS OFICIALES DE LA INGENIERÍA TÉCNICA INDUSTRIAL
+      DE ESPAÑA (COGITI)
+      PLATAFORMA INGENIEROS FORMACIÓN (ENAE003PO)
+
+    from: 2020
+
+
+  item4:
+    institution: Otros de interes para el puesto
+    program: Doble grado Project Management Professional (PMP) y Técnicas de Negociación.
+    description: PowerFlower Business School (PFBS)
+      The Professional Training Program and the Advanced 
+      Design Program provide for a comprehensive PMP career & Negotiation Technics (20077002PMP)
+
+    from: 2007
+
+
+
+
+
+# Community section:
+community:
+  item0:
+    institution: Omdena
+    program: Community Builder
+    description: "Selected as a community builder at Omdena due to exemplary performance in their AI challenge on the tree identification challenge to prevent fire outbursts."
+    from: September 2019
+    to: Present
+    link: https://omdena.com
+  item1:
+    institution: Future Lab
+    program: Co-founder and Coordinator
+    description: "Co-founder and coordinator of Future Lab, a community of tech developers for the future. We maily work under three axis: a) Develop awesome tech based projects, b) Share knowledge with the community, and c) Networking with other communities. As a member of Future Lab I have participated on big events such as Talent Land with an AI talk."
+    from: April 2017
+    to: Present
+    link: https://futurelab.mx
+  item2:
+    institution: GitHub Education
+    program: GitHub Campus Experts Program
+    description: Mexican member of the GitHub Campus Experts Program, encouraging to empower other student communities. I also serve as a mentor in different events such as Startup Weekends, hackathons, innovation events, etc.
+    from: October 2017
+    to: Present
+    link: https://githubcampus.expert/RodolfoFerro/
+  item3:
+    institution: Clubes de Ciencia México
+    program: Guanajuato Comitee Member and Instructor
+    description: Co-organizer of the intensive one-week summer science workshops of Clubes de Ciencia México in Guanajuato. Besides organizing, I have participated teaching science workshops (in particular a physics workshop, based on a Nobel Prize design, and artificial intelligence workshops) for high school and undergrad students.
+    from: January 2015
+    to: Present
+    link: https://www.clubesdeciencia.mx
+  item4:
+    institution: Google Programs
+    program: Google Student Ambassador and GDG
+    description: Served as a Google Student Ambassador Latam for the University of Guanajuato, empowering the student community with Googleness and Google technologies to make their life easier. Currently helping the GDG León with tech talks and workshops about AI as a core member of the team. Do cool things that matter.
+    from: August 2014
+    to: July 2015
+    link: https://www.meetup.com/es/GDGLeon/
+  reference: https://rodolfoferro.xyz/resume/
+
+
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - git-alt
+  - github
+  - gitlab
+  - gitkraken
+  - raspberry-pi
+  - google
+  - google-drive
+  - slack
+  - trello
+  - markdown
+  - html5
+  - bootstrap
+extra_skills:
+  - Facebook Messenger, Telegram, and SMS bots
+  - Web scraping and web automation
+  - APIs and web development, MongoDB
+  - Image processing and computer vision
+  - Machine learning and deep learning
+  - Many Python packages – Flask, NumPy, matplotlib, Tensorflow, etc.
+
+
+# Talks and workshops section
+workshops:
+  item0:
+    event: TEDxUNAMLeón
+    workshop: AI in modern times, February 2020.
+    material:
+    link: https://www.ted.com/tedx/events/35293
+  item1:
+    event: PyCon Colombia 2020
+    workshop: 'Workshop – DLaaS: Building cloud-based intelligent solutions, February 2020.'
+    material: https://github.com/RodolfoFerro/PyConCo20
+    link: https://www.pycon.co/ponentes/rodolfo-ferro/
+  item2:
+    event: International Meeting on Artificial Intelligence and its Applications (RIIAA) 2.0.
+    workshop: Workshop – Deep Learning as a Service (DLaaS), August 2019.
+    material: https://github.com/RodolfoFerro/RIIAA19-DLaaS
+    link: https://riiaa.org
+  item3:
+    event: LAB León Web Dev Crash Course 2019.
+    workshop: Crash Course – Introduction to Web Development with Python and Flask, August 2019.
+    material: https://github.com/RodolfoFerro/Flask101
+    link: https://flask101.glitch.me
+  item4:
+    event: DevDay León 2019 by Hackademy.
+    workshop: Workshop – (AI) API development with Python, August 2019.
+    material: https://github.com/RodolfoFerro/PythonBaseAPI
+    link:
+  item5:
+    event: Clubes de Ciencia México 2019.
+    workshop: Workshop – Revealing the Hidden Hyperspectrum with Artificial Neurons, July 2019.
+    material: https://rodolfoferro.xyz/hyperspectrum/
+    link:
+  item6:
+    event: DevDay Mérida 2019.
+    workshop: Workshop – Artificial Intelligence with Python, July 2019.
+    material: https://github.com/RodolfoFerro/DevDayMid2019
+    link:
+  item7:
+    event: Talent Land 2019.
+    workshop: Talk – A.I. in modern times, April 2019.
+    material:
+    link: https://jaliscotalentland2019.sched.com/event/MzAs/inteligencia-artificial-en-tiempos-modernos
+  item8:
+    event: PythonDay México 2018.
+    workshop: Talk – Data Science with Python, December 2018.
+    material: https://github.com/RodolfoFerro/DataSciPy
+    link:
+  item9:
+    event: PythonDay México 2018.
+    workshop: Workshop – Machine Learning as a Service (MLaaS), November 2018.
+    material: https://github.com/RodolfoFerro/MLaaS
+    link:
+  item10:
+    event: HERE Hackathon at Technological University of Leon.
+    workshop: Mentor on the event. Talk – Integration of Technological Solutions, November 2018.
+    material: https://github.com/RodolfoFerro/HereHackathon
+    link:
+  item11:
+    event: 6th. International Conference in Software Engineering Research and Innovation (CONISOFT).
+    workshop: Workshop – Introduction to Neural Networks with Keras, October 2018.
+    material: https://github.com/RodolfoFerro/CONISOFT2018
+    link: http://conisoft.org/2018/public/
+  reference: https://rodolfoferro.xyz/resume/
+
+
+# Projects section
+projects:
+  item1:
+    title: flask-resume-template
+    subtitle: A resume template built with Flask
+    description: An easy-to-configure simple resume template built with Flask and Bootstrap.
+    link: https://flask-resume-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-resume-template/
+    img: flask-resume-template.png
+    tags: [Flask, Python, Bootstrap]
+  item2:
+    title: DLaaS
+    subtitle: Google Colab Notebooks
+    description: A set of Google Colab notebooks and a Flask base API to learn and serve Deep Learning. Prepared for my workshop at RIIAA 2.0.
+    link: https://rodolfoferro.xyz/RIIAA19-DLaaS/
+    github: https://github.com/RodolfoFerro/RIIAA19-DLaaS
+    img: riiaa.png
+    tags: [Python, Tensorflow 2.0, Keras, Deep Learning]
+  item3:
+    title: impipes
+    subtitle: Python package
+    description: A Python package to build image pipelines in a simple way. Preprocess data to feed neural networks in an easier way.
+    link: https://impipes.readthedocs.io/en/latest/
+    github: https://github.com/RodolfoFerro/impipes
+    img: impipes.png
+    tags: [Python, PyPI, Images, Data Preprocessing, Documentation]
+  item4:
+    title: MNIST Web Classifier
+    subtitle: A CNN served as a web platform
+    description: Classify handwritten digits directly on your computer or your phone. As simple as taking a picture of a written random multi-digit number.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+    img: keras-mnist.png
+    tags: [Python, Bootstrap, Web Platform, Flask, MNIST, CNN, Keras]
+  item5:
+    title: EmojiMerida
+    subtitle: Google Colab Notebook
+    description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
+    link: https://colab.research.google.com/github/RodolfoFerro/EmojiMerida/blob/master/Data_M%C3%A9rida.ipynb
+    github:
+    img: data-merida.png
+    tags: [Python, Computer Vision, Keras, Neural Networks]
+  item6:
+    title: PythonBaseAPI
+    subtitle: API template built with Flask
+    description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop.
+    link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
+    github: https://github.com/RodolfoFerro/PythonBaseAPI
+    img: python-base-api.png
+    tags: [Flask, Python, API, scikit-learn]
+  item7:
+    title: flask-micro-template
+    subtitle: A micro template built with Flask
+    description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+    img: flask-micro-template.png
+    tags: [Flask, Python, Bootstrap]
+  item8:
+    title: moltransform
+    subtitle: Python package
+    description: Molecular transformations for graphic displaying using Cartesian coordinates.
+    link: https://pypi.org/project/moltransform/
+    github: https://github.com/RodolfoFerro/moltransform
+    img: moltransform.png
+    tags: [Python, PyPI, Molecules, Rigid Transformations]
+  item9:
+    title: FitbitVersa-SimpleOmnitrix
+    subtitle: Fitbit Versa Clockface
+    description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
+    link: https://gallery.fitbit.com/details/6c75fa41-8de0-41db-b851-f21f7447018b
+    github: https://github.com/RodolfoFerro/FitbitVersa-SimpleOmnitrix
+    img: simple-omnitrix.png
+    tags: [TypeScript, Ben 10, Fitbit, Fitbit Versa]
+
+
+# Certifications and awards section
+awards:
+  - 'Winner – #TFWorld TF 2.0 Challenge – TensorFlow at Devpost 2020'
+  - Academy and Technology – Statal Youth Prize Guanajuato 2018
+  - Quantum Computing 101 – IBM Q Certification Badge 2018
+  - 1st. Place – HDI Challenge – Talent City Hackathon 2018
+  - 1st. Place – SWITCH Hackathon 2017
+  - 1st. Place – IBM Hackapalooza – Bluehack Hackathon 2017
+  - 1st. Place – 12th. Creativity and Innovation Contest at the University of Guanajuato 2017
+  - 1st. Place – Centro Fox National Hackathon 2017
+  - 1st. Place – 6th. Creativity and Innovation Contest, DCEA-UG 2016
+  - Silver Award – SynBio Giant Jamboree – iGEM  2016
+  - 1st. Place – 4th. Creativity and Innovation Contest, DCNE-UG 2016
+  - 1st. Place – Fintech – HackBajío Hackathon 2016
+
+
+
+
+# DETALLES DE LA OFERTA DE EMPLEO
+
+#     Inicio
+#     Empleo
+#     ENERGY
+#     RENEWABLE CONVENTIONAL T D
+
+# Ingeniero de Desarrollo de proyectos fotovoltaicos - Andalucía
+# Guardar
+
+# Banda salarial Negotiable
+
+# Ubicación Granada
+
+# Consultor/a Nuria Navarro
+
+# Referencia 1122822/001
+
+# Fecha de publicación 2 de julio de 2020
+
+# Tenemos una nueva vacante: Buscamos un Ingeniero de Desarrollo de proyectos fotovoltaicos en España, con base en Andalucía. Si cumples los requisitios del puesto, y estás interesado, inscríbete en la oferta a través del link!
+
+# El candidato seleccionado liderará un equipo técnico humano con las siguientes funciones:
+
+#     Solicitar derechos de acceso y conexión a las redes de distribución y transporte.
+#     Analizar parcelas desde el punto de vista urbanístico, medioambiental y técnico (prefactibilidad).
+#     Desarrollar comparativos técnicos y económicos de distintos fabricantes y proponer las mejores soluciones.
+#     Desarrollar el diseño de parques fotovoltaicos, estableciendo los criterios para el cálculo de producción, determinación de pitch según inclinación y orientación del terreno, realizar cálculos rigurosos de movimiento de tierras, interpretar resultados de estudios geotécnicos, garantizar estabilidad mediante estudios de viento, revisar y aprobar los cálculos y esquemas eléctricos, vallados, sistemas auxiliares y de vigilancia, etc.
+#     Desarrollar el diseño de centros de transformación, elección de celdas y transformadores, cimentaciones, zanjas y líneas subterráneas de alta tensión, etc.
+#     Desarrollar el diseño de subestaciones eléctricas, definición de instalaciones de interior, definición de parque intemperie, cálculo de cimentaciones, puestas a tierra, sistema de control y comunicaciones, etc.
+#     Desarrollar el diseño de líneas aéreas de alta tensión, definición de trazados y cruzamientos, cálculo de conductores simples o en haz, cálculo de apoyos, cimentaciones y puestas a tierra, etc.
+#     Interlocución con las compañías eléctricas, el operador del sistema, administraciones u órganos afectados, clientes, proveedores, y colaboradores.
+#     Planificar los trabajos y controlar el cashflow de las operaciones.
+
+# Imprescindible nivel alto de español e inglés. Valorable positivamente el dominio del inglés.
+
+# Imprescindible formación de Ingeniería. Se requieren 10 años de experiencia en Desarrollo de Proyectos fotovoltaicos, disponiendo de una amplia red de contactos en los principales players y diferentes stakeholders, así como una profunda comprensión del marco regulatorio en España. Debes tener disponibilidad para fijar la residencia en la zona del este de Andalucía, y viajar habitualmente. Incorporación inmediata.
+
+# Buscamos un candidato con buenas habilidades sociales, de negociación, resolución de problemas y toma de decisiones. Deberá ser una persona responsable, dinámica, con capacidad analítica, de liderazgo, planificación y gestión de proyectos.
